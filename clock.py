@@ -1,6 +1,8 @@
+# coding : utf8
 import time,os,datetime
 from IutyLib.notice.notice import WeChat_SMS
 from IutyLib.commonutil.config import Config
+
 
 
 configpath = os.path.join(os.path.abspath("."),"Config","Clock.ini")
